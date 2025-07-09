@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="zh-CN,en,default">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="前端, 成长, 技术, 生活">
+    <meta name="description" content="我的前端成长史">
+    <meta name="author" content="y1e">
+    
+    <title>
+        
+            我的前端学习史 |
+        
+        y1e&#39;s blog
+    </title>
+    
+<link rel="stylesheet" href="/y1eblog/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/y1eblog/images/y1e.jpeg">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/brands.min.css">
+    
+        
+            
+        
+            
+                
+<link rel="stylesheet" href="/y1eblog/css/my.css">
+
+            
+        
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"yeee666111.github.io","root":"/y1eblog/","language":["zh-CN","en","default"],"path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"y1e's blog","author":"y1e","avatar":"/images/y1e.jpeg","logo":"/images/y1e.jpeg","favicon":"/images/y1e.jpeg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","categories":"/categories","github":"https://github.com/yeee666111 || fa-brands fa-github","photos":"/photos || fa-solid fa-image","about":"/about"},"first_screen":{"enable":true,"background_img":"/images/success.webp","background_img_dark":"/images/success.webp","description":"how long will it take to live the life you want...","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"updated","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"obsidian"},"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"cdnjs"},"pjax":{"enable":true},"footer":{"since":2025,"word_count":true,"site_deploy":{"enable":true,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":true,"css":[null,"/css/my.css"],"js":[null]},"root":"/y1eblog","source_data":{},"version":"4.2.5"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left flex-start border-box">
+            
+                <a class="logo-image border-box" href="/y1eblog/">
+                    <img src="/y1eblog/images/y1e.jpeg">
+                </a>
+            
+            <a class="site-name border-box" href="/y1eblog/">
+               y1e&#39;s blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc border-box">
+                <ul class="menu-list border-box">
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/y1eblog/">
+                                
+                                首页
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/y1eblog/archives">
+                                
+                                归档
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/y1eblog/tags">
+                                
+                                标签
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/y1eblog/categories">
+                                
+                                分类
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" target="_blank" rel="noopener" href="https://github.com/yeee666111">
+                                
+                                    <i class="menu-text-color menu-icon fa-brands fa-github"></i>
+                                
+                                GITHUB
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/y1eblog/photos">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-image"></i>
+                                
+                                相册
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/y1eblog/about">
+                                
+                                关于
+                                
+                            </a>
+                            
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="menu-text-color fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile border-box flex-start">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list border-box">
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/y1eblog/">
+                            
+                            首页
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/y1eblog/archives">
+                            
+                            归档
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/y1eblog/tags">
+                            
+                            标签
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/y1eblog/categories">
+                            
+                            分类
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" target="_blank" rel="noopener" href="https://github.com/yeee666111">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-brands fa-github"></i>
+                                </span>
+                            
+                            GITHUB
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/y1eblog/photos">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-image"></i>
+                                </span>
+                            
+                            相册
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/y1eblog/about">
+                            
+                            关于
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        我的前端学习史
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/y1eblog/images/y1e.jpeg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">y1e</span>
+                                
+                                    <span class="author-badge">Lv3</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2025-04-07 19:30:15</span>
+            </span>
+
+            
+                <span class="meta-info-item post-update-date">
+                    <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                    <span class="datetime" data-updated="Sun Jun 15 2025 09:19:38 GMT+0000">2025-06-15 09:19:38</span>
+                </span>
+            
+        
+
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/y1eblog/tags/studyyy/">studyyy</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+        
+        
+            <span class="meta-info-item post-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    
+                         <p>先简单介绍下主包的情况bg吧，26届本科大三，末二计算机专业，一段中厂实习经历，目前大厂暑期实习，分享下主包的前端成长史</p>
+<h3 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a><span style="color:rgb(155, 0, 80);">时间线</span></h3><p>2024.3-2024.6:在学校三天打鱼两天晒网看完基础三件套 js+css+html<br>2024.10：看完vue2 练手完尚硅谷的vue2项目<br>2024.11：看完js高级，结合文档看react18，7天上手react18的网易云音乐项目<br>2024.12：看b站天禹老师的ts入门，写简历初版，背八股，看面经<br>2025.1：上手手撕常考js，海投简历<br>2025.2-2025.3：入职中厂<br>2025.4：海投暑期实习，包装实习，刷hot100<br>2025.5：入职阿里<br><img    
+                       lazyload
+                       alt="image"
+                       data-src="/y1eblog/images/3.jpg"
+                         alt="描述" width="80%" height="500"
+                 ></p>
+<h3 id="快速入门分享"><a href="#快速入门分享" class="headerlink" title="快速入门分享"></a><span style="color:rgb(155, 0, 80);">快速入门分享</span></h3><ol>
+<li><p><span style="color:rgb(232, 30, 30);">首先关于三件套</span>：<br>我是看的黑马的pink老师入门的，这部分非常简单，建议是如果零基础的话1.5倍速，简单了解即可，不需要做很多笔记浪费时间，因为我真实的感受是上手才是最好的老师，这部分东西太多太杂，除非天才根本记不住。关于js部分，这是前端部分的基石，我希望大家可以好好理解掌握，之后的帮助会非常大，零基础的话先看js基础吧，后期做完一个简单项目或者背八股的时候再学习js高级，会有非常大的理解和收获，当然一个人一个学习方法，找到适合自己的方法，学习切记高效才是王道。<br>其次，我个人觉得入门阶段没必要看文档，跟着视频学习不懂的照着敲，比枯燥的看文档来的快得多，如果说一定要看文档的话，我觉得会是在实际项目阶段而不是入门阶段。<br>最后，基础三件套不必纠结于看谁讲的视频，学到东西才是关键，不必过多追求高大上</p>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/y1eblog/images/1.webp"
+                         alt="描述" width="80%" height="300"
+                 ></li>
+</ol>
+<br>
+
+<ol start="2">
+<li><p><span style="color:rgb(232, 30, 30);">关于前端框架：</span><br>我是首推react的。<br>可能因为主包有个本2的title，一些简历关是可以混过去的，所以我推荐92同学首选react，vue可以作为了解，（bg不是很好的同学可以先学vue）因为掌握框架的本质我觉得是掌握js，他们各自的语法我感觉花时间就可以学会，理解本质才是关键。<br>学习方法，我当时学到react到12月了，所以我跟着官方文档和黑马的react18那个课学习的，课中的一些小demo我没有上手敲，直接找的网易云练手的项目熟悉，所以整个react学习过程非常快，半个月学习+项目。当然如果时间充裕的话，我还是建议大家可以把react好好的啃下来，可以精学，学有余地可以看看一些hooks的源码，绝对会有帮助。如果是26届的话，我建议可以按照我的方法的来学习。</p>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/y1eblog/images/2.webp"
+                         alt="描述" width="60%" height="300"
+                 ></li>
+</ol>
+<br>
+
+<ol start="3">
+<li><p><span style="color:rgb(232, 30, 30);">关于打包工具和ts：</span><br>主包因为是短期速成的，所以这些东西没有系统的学习，主要是通过八股+总结视频来进行学习的，其实目前我的认知来说，在面试过程中，几乎大中小厂问打包工具的概率很低，目前我只在美团面试中被问到ts相关的知识，而且还是纯八股背诵，所以主包认为这部分也没必要花大时间看文档学习。一些构建工具类的配置项以目前本科生或者研究生来说自己从0到1配基本不可能，所以大家放宽心，知道什么该学什么不该学就好，再说现在我们还有ai不是嘛。不懂就问ai哈哈哈。</p>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/y1eblog/images/4.webp"
+                         alt="描述" width="60%" height="300"
+                 ></li>
+</ol>
+<br>
+
+<ol start="4">
+<li><span style="color:rgb(232, 30, 30);">关于项目：</span><br>首先，我的简历上刚开始投的时候是一个网易云项目+一个后台管理项目。中小厂还是给机会面的。大厂的机会就是包装这两个烂大街项目。好了，现在先说简历项目<br>目前我们国内的计算机学生大部分可以接触到的项目无非就是b站上烂大街的项目，除非少数卷王卷开源，卷训练营的项目等等，对于我们大部分学历不是很好或者没有项目经验的同学来说，b站就是我们可以接触到的门槛最低的平台了。所以，主包就是这样，两个烂大街的项目就这么弄到简历上去了。<br><br>主包真实经历：初版简历，两个项目基本没什么写的，基本就是最简单的功能，几百人小厂约面的多，主包开始反思了，逐渐了解到“包装”这个概念，所以我开启了包装之路。。。网易云项目我直接写到了9条相关技术实现，果不其然，中厂面试我也能面了。。。<br><br>所以，关于包装，我有几点想说。比较有亮点的是可以在一两条技术实现中体现“量化”的数据，不了解量化的话可以问问ai，这个切记不能多，一定要在最有含量的技术实现中体现，切记切记。其次，我觉得大家可以适当在辣鸡项目中加入一些新的技术栈，体现自己的亮点。这些是确实做的，当然还有很多方法我就不多赘述了，反正目的都是为了进面。</li>
+</ol>
+<br>
+
+<ol start="5">
+<li><span style="color:rgb(232, 30, 30);">关于面试</span><br>实习（如果有）+场景+js手撕+力扣hot100+八股<br>这是主包面试几十家大中小厂总结的经验。<br><br><u>小厂：八股居多</u><br><br><u>中厂：实习+js手撕+场景+八股+力扣（部分）</u><br><br><u>大厂：实习+js手撕+场景+八股（问的很少很少）+力扣（绝大）+项目</u><br>所以，纯背八股的时代已经过去了，大家也要与时俱进。八股其实我觉得虽然很枯燥无味，但是他确实可以实实在在的帮助我们理解一些东西，所以我还是非常建议认真理解的。关于怎么找，去各大平台上找高赞的就可以了。<br><br><span style="color:rgb(5, 72, 230);">js手撕</span>：其实还是考察的代码能力的。这个主包有一个好方法，就是我们要知道这个api是干什么的实现了什么，我们带着问题写代码，就会越来越熟练，这个还是需要我们不断复习的。<br><br><span style="color:rgb(5, 72, 230);">场景</span>：这部分其实我觉得是面试中最考验能力的地方，因为其他的东西都是可以背的，但是场景是需要我们去思考，同一个问题，面试官可能有不同的问法，这就需要我们长时间的积累，比如多问ai，多看掘金上的一些技术文章分享，多总结别人的面经，没有什么值得不值得看的，说不定某一个面试中，你就恰好看到过，这就是积累。<br>大厂考场景的话，有可能让我们手撕一些自定义hook，或者实现一个组件，这我感觉还是有难度的，所以还是得积累，积少成多嘛。<br><br><span style="color:rgb(5, 72, 230);">算法</span>：其实主包没有什么好方法，没有天赋就不断重复，理解不了我们就纯背诵，当然这不是一个好方法，但是进了公司才发现，我们刷的算法其实不过是一种筛选的手段罢了。。。<br><br><span style="color:rgb(5, 72, 230);">实习</span>：如果我们在简历上可以有实习经历的话，我建议这部分篇幅一定要长。对于日常实习来说，我觉得经历应该放在第一位，而不是追求业务，因为我们不存在转正嘛，所以我们一定看中的是title，title越大，我们进面的可能就越大。<br><span style="color:rgb(5, 72, 230);">包装实习</span>：主包第一段实习在中厂，干了不到一个半月，面试造火箭实际拧螺丝哈哈哈，进去基本就是在写css写页面，接到的需求基本没有什么逻辑没有什么挑战，所以主包进去的时候就开始为了离职做准备，所谓mt做的就是咋们做的，大家都懂，但是我希望大家一定要真真正正的理解了我们写到简历的东西，面试官问到我们可以真正的硬控他，吟唱几十分钟，并且不能说只局限于写上去的东西，还要预演这个技术可能涉及到什么别的方面，比如我们写web安全，我们要知道web攻击是什么，有什么，攻击的原理是什么，怎么防范攻击，在实际项目中怎么实现的等等这些都需要我们提前准备，不能说光会吹牛逼，被追问直接现行，万万不可。</li>
+</ol>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a><span style="color:rgb(155, 0, 80);">总结</span></h3><p>现在网络上都流行着前端已死的话语，目前我的认知我认为前端远未到死的地步，只是说可替代性比较强，这就意味着纯前端肯定不行了，只会写页面一定会被淘汰，但新时代的我们不会坐以待毙，我们会与时俱进，不让时代淘汰。所以我们不能认为我们是一个前端开发者，我们应该是一个工程师（p7mentor原话）。所以主包会在之后学习大模型相关的知识，并且继续阅读js书籍向底层深挖。<br></p>
+<p>好了，相信你看到这里了，想必你也是一个希望在前端领域有所作为的同学吧，你可能是刚开始学习，也可能是正在学习，这都不重要，重要的是我们一直在向着一个方向不断努力。加油，陌生人。每一个深夜支起的电脑支架，都是我们努力的见证，每一个敲击的键盘声，都见证着我们的付出，每一个辗转反侧的深夜，都是我们对未来的焦虑。我相信越努力越幸运（对于计算机的我们来说）<br>同学，你的焦虑不是一个人，而是每一个正在学习前端的同学正在切切实实经历的过程，只不过我挺过来了，我相信，你们也会。阶段性的胜利是我们付出的见证，所以为了更好的日子，或许是为了更好的自己，或许是为了让自己挺起腰杆，又或许是为了过上在超市不看价钱的生活。继续努力吧，前端er们。<br>茫茫万家灯火，一定会有一盏属于我们。</p>
+
+                    
+                </div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/y1eblog/tags/studyyy/">studyyy</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/y1eblog/Express%E7%9A%84%E5%AD%A6%E4%B9%A0/"
+                                   title="Express的学习"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">Express的学习</span>
+                                        <span class="post-nav-item">上一篇</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E7%BA%BF"><span class="nav-text">时间线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%88%86%E4%BA%AB"><span class="nav-text">快速入门分享</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-text">总结</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+    &copy;&nbsp;2025
+    
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/y1eblog/">y1e</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+        
+        <div class="deploy-info info-item">
+            
+            本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/y1eblog/images/brands/github.png"></span> 提供部署服务
+            
+        </div>
+    
+
+    
+        <div class="count-info info-item">
+            
+
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="post-tools-list border-box">
+        <!-- PC encrypt again -->
+        
+
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <!-- toggle mode -->
+        
+            <li class="tools-item tool-toggle-theme-mode flex-center">
+                <i class="fas fa-moon"></i>
+            </li>
+        
+
+        <!-- rss -->
+        
+
+        <!-- to bottom -->
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E7%BA%BF"><span class="nav-text">时间线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%88%86%E4%BA%AB"><span class="nav-text">快速入门分享</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-text">总结</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+
+
+<!-- common js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/header-shrink.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/back2top.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/toggle-theme.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/code-block.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/libs/anime.min.js"></script>
+
+<!-- local search -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/local-search.min.js"></script>
+
+
+<!-- lazyload -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/lazyload.min.js"></script>
+
+
+<div class="pjax">
+    <!-- home page -->
+    
+
+    <!-- post page -->
+    
+        <!-- post-helper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/post/post-helper.min.js"></script>
+
+        <!-- toc -->
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/post/toc.min.js"></script>
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart()
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
+        });
+    });
+</script>
+
+
+
+
+    
+        
+    
+
+</body>
+</html>
